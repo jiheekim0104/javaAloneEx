@@ -1,6 +1,6 @@
 package ch06;
 
-public class Ex1617 {
+public class Ex16 {
 
 	public static void main(String[] args) {
 		Printer printer = new Printer();

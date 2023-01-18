@@ -1,10 +1,9 @@
-package ch06;
+package ch06.q15;
 
-public class Ex131415 {
+public class Main {
 
 	public static void main(String[] args) {
-		Member user1 = new Member();
-		user1.setuser("홍길동","hong");
+	
 		
 		MemberService memberService = new MemberService(); 
 		boolean result = memberService.login("hong","12345");
@@ -20,20 +19,6 @@ public class Ex131415 {
 	}
 
 }//class end
-class Member { //13번
-	String name;
-	String id;
-	String password;
-	int age;
-	
-	
-	void setuser (String name,String id) { //14번
-		this.name=name;
-		this.id=id;
-	}
-	
-	
-}
 
 
 
@@ -51,5 +36,3 @@ class MemberService { //15번 -1
 		System.out.println(id+"님이 로그아웃 되었습니다.");
 	}
 }
-
-
