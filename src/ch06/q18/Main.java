@@ -1,9 +1,9 @@
-package ch06;
+package ch06.q18;
 
-public class Ex18 {
+public class Main {
 
 	public static void main(String[] args) {
-		/*
+	
 		ShopService obj1 = ShopService.getInstance();
 		ShopService obj2 = ShopService.getInstance();
 		
@@ -12,20 +12,7 @@ public class Ex18 {
 		} else {
 			System.out.println("다른 ShopService 객체입니다.");
 		}
-		*/
+		
 	}
 
-} //CLASS END
-
-class ShopService {
-
-	String instance;
-
-	public String getInstance() {
-		return instance;
-	}
-
-	public void setInstance(String instance) {
-		this.instance = instance;
-	}
-}
+} 

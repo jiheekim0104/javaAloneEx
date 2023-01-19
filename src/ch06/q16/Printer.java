@@ -1,6 +1,6 @@
-package ch06;
+package ch06.q16;
 
-public class Ex16 {
+public class Printer {
 
 	public static void main(String[] args) {
 		Printer printer = new Printer();
@@ -10,9 +10,9 @@ public class Ex16 {
 		printer.println("È«±æµ¿");
 	}
 
-}
 
-class Printer { // 16¹ø 
+
+
 	void println(int number1) {
 
 	}
@@ -28,7 +28,6 @@ class Printer { // 16¹ø
 	void println(String name) {
 
 	}
-
 
 
 }

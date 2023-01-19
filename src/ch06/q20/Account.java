@@ -1,4 +1,4 @@
-package ch06.ex20;
+package ch06.q20;
 
 public class Account {
 	private String accountNumber;

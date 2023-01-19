@@ -1,4 +1,4 @@
-package ch06.ex20;
+package ch06.q20;
 
 import java.util.Scanner;
 
