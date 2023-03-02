@@ -14,12 +14,14 @@ public class LoginExample {
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
+		
+	
 	}
 		public static void login(String id, String password) throws Exception {
 			if(!id.equals("blue")) {
 				throw new NotExistIDException(id);
-			}
-		
+			} 
+			
 			if(!password.equals("12345")) {
 				throw new WrongPasswordException(password);
 			}
@@ -27,11 +29,7 @@ public class LoginExample {
 			
 		}
 		
-		
-	
 
-	
-		
 	}
 
 
